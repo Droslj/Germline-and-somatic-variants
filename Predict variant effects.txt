@@ -1,0 +1,250 @@
+[VEP run statistics]
+VEP version (API)	 113.0 (113)
+Annotation sources	Cache: /data/db/data_managers/vep/106/hg38/default/homo_sapiens/106_GRCh38
+Species	homo_sapiens
+Command line options	--cache  --cache_version 106 --dir_cache /data/db/data_managers/vep/106/hg38/default --input_file /data/dnb11/galaxy_db/files/c/b/e/dataset_cbe53ab9-1207-4b77-ab9b-678c50df1746.dat --nearest symbol --offline --output_file MainOutput.vcf --species homo_sapiens --stats_text --terms SO --vcf --vcf_info_field CSQ
+Start time	2025-04-22 17:19:38
+End time	2025-04-22 17:29:12
+Run time	574 seconds
+Input file	/data/dnb11/galaxy_db/files/c/b/e/dataset_cbe53ab9-1207-4b77-ab9b-678c50df1746.dat
+Output file	MainOutput.vcf
+
+[Data version]
+1000genomes	phase3
+COSMIC	92
+ClinVar	202109
+ESP	V2-SSA137
+HGMD-PUBLIC	20204
+assembly	GRCh38.p13
+dbSNP	154
+gencode	GENCODE 40
+genebuild	2014-07
+gnomAD	r2.1.1
+polyphen	2.2.2
+regbuild	1.0
+sift	sift5.2.2
+
+[General statistics]
+Lines of input read	104645
+Variants processed	104595
+Variants filtered out	0
+Novel / existing variants	-
+Overlapped genes	28953
+Overlapped transcripts	156381
+Overlapped regulatory features	-
+
+[Variant classes]
+insertion	6553
+deletion	8053
+SNV	89989
+
+[Consequences (most severe)]
+splice_acceptor_variant	87
+splice_donor_variant	84
+stop_gained	115
+frameshift_variant	254
+stop_lost	48
+start_lost	38
+inframe_insertion	171
+inframe_deletion	224
+missense_variant	10572
+protein_altering_variant	7
+splice_donor_5th_base_variant	110
+splice_region_variant	2396
+splice_donor_region_variant	376
+splice_polypyrimidine_tract_variant	2342
+stop_retained_variant	16
+synonymous_variant	14434
+coding_sequence_variant	2
+mature_miRNA_variant	26
+5_prime_UTR_variant	3188
+3_prime_UTR_variant	5473
+non_coding_transcript_exon_variant	13554
+intron_variant	46799
+upstream_gene_variant	1512
+downstream_gene_variant	888
+intergenic_variant	1879
+
+[Consequences (all)]
+splice_acceptor_variant	200
+splice_donor_variant	187
+stop_gained	201
+frameshift_variant	568
+stop_lost	104
+start_lost	116
+inframe_insertion	547
+inframe_deletion	850
+missense_variant	30545
+protein_altering_variant	30
+splice_donor_5th_base_variant	536
+splice_region_variant	12883
+splice_donor_region_variant	1815
+splice_polypyrimidine_tract_variant	20258
+incomplete_terminal_codon_variant	4
+start_retained_variant	19
+stop_retained_variant	48
+synonymous_variant	55844
+coding_sequence_variant	33
+mature_miRNA_variant	33
+5_prime_UTR_variant	10506
+3_prime_UTR_variant	26339
+non_coding_transcript_exon_variant	50106
+intron_variant	454500
+NMD_transcript_variant	89786
+non_coding_transcript_variant	116693
+upstream_gene_variant	119317
+downstream_gene_variant	135552
+intergenic_variant	1879
+
+[Coding consequences]
+stop_gained	201
+frameshift_variant	568
+stop_lost	104
+start_lost	116
+inframe_insertion	547
+inframe_deletion	850
+missense_variant	30545
+protein_altering_variant	30
+incomplete_terminal_codon_variant	4
+start_retained_variant	19
+stop_retained_variant	48
+synonymous_variant	55844
+coding_sequence_variant	33
+
+[Variants by chromosome]
+chr1	10537
+chr2	8526
+chr3	5282
+chr4	4868
+chr5	4472
+chr6	3836
+chr7	5826
+chr8	2827
+chr9	4516
+chr10	3918
+chr11	6514
+chr12	6003
+chr13	2062
+chr14	3865
+chr15	4529
+chr16	4468
+chr17	4982
+chr18	1338
+chr19	6038
+chr20	2924
+chr21	1135
+chr22	2584
+chr14_GL000009v2_random	1
+chr14_KI270726v1_random	2
+chr15_KI270848v1_alt	2
+chr16_GL383556v1_alt	9
+chr12_KI270835v1_alt	2
+chr19_GL383575v2_alt	4
+chr17_GL000205v2_random	49
+chr14_KI270725v1_random	13
+chr11_KI270831v1_alt	2
+chr1_KI270765v1_alt	1
+chr15_KI270850v1_alt	25
+chr11_KI270902v1_alt	33
+chr14_KI270723v1_random	7
+chr1_KI270712v1_random	1
+chr19_GL949752v1_alt	1
+chr10_GL383545v1_alt	2
+chr14_KI270846v1_alt	13
+chr11_KI270832v1_alt	9
+chr14_KI270847v1_alt	1
+chr14_KI270722v1_random	3
+chr17_GL383563v3_alt	1
+chr11_KI270903v1_alt	5
+chr17_KI270909v1_alt	2
+chr17_KI270857v1_alt	4
+chr1_KI270711v1_random	88
+chr12_KI270904v1_alt	1
+chr16_KI270728v1_random	28
+chr16_KI270855v1_alt	1
+chr1_KI270766v1_alt	4
+chr1_KI270713v1_random	60
+chr11_KI270830v1_alt	3
+chr11_KI270721v1_random	1
+chr1_KI270706v1_random	16
+chr11_JH159136v1_alt	2
+chr17_KI270859v1_alt	1
+chr14_GL000225v1_random	35
+chr15_KI270851v1_alt	8
+chr16_KI270853v1_alt	15
+chr1_KI270714v1_random	12
+chr17_KI270908v1_alt	2
+chr15_KI270905v1_alt	26
+chr16_KI270854v1_alt	1
+chr11_KI270927v1_alt	17
+chr17_JH159147v1_alt	1
+chr14_GL000194v1_random	37
+chr1_KI270709v1_random	4
+chr22_KI270732v1_random	2
+chr22_KI270928v1_alt	1
+chr22_GL383582v2_alt	2
+chr2_GL383522v1_alt	1
+chr2_KI270772v1_alt	4
+chr22_KI270733v1_random	36
+chr22_KI270875v1_alt	3
+chr22_KI270731v1_random	17
+chr22_KI270734v1_random	8
+chr3_JH636055v2_alt	1
+chr3_KI270937v1_alt	5
+chr3_GL000221v1_random	17
+chr3_KI270780v1_alt	2
+chr3_KI270936v1_alt	4
+chr3_KI270779v1_alt	16
+chr3_KI270784v1_alt	2
+chr3_KI270935v1_alt	2
+chr4_GL000257v2_alt	1
+chr5_GL339449v2_alt	4
+chr5_KI270792v1_alt	9
+chr5_KI270897v1_alt	1
+chr6_GL000251v2_alt	15
+chr6_GL383533v1_alt	1
+chr6_GL000256v2_alt	23
+chr6_GL000254v2_alt	14
+chr6_KI270801v1_alt	1
+chr6_KI270758v1_alt	3
+chr6_GL000253v2_alt	23
+chr6_GL000255v2_alt	16
+chr6_GL000252v2_alt	22
+chr7_KI270809v1_alt	2
+chr7_KI270803v1_alt	13
+chr8_KI270813v1_alt	5
+chr8_KI270821v1_alt	2
+chr9_KI270719v1_random	23
+chr9_KI270720v1_random	23
+chr9_KI270718v1_random	2
+chrUn_KI270744v1	37
+chrUn_KI270741v1	2
+chrUn_KI270442v1	62
+chrUn_KI270749v1	2
+chrUn_KI270750v1	4
+chrUn_GL000224v1	4
+chrUn_GL000195v1	3
+chrUn_GL000216v2	6
+chrUn_GL000219v1	64
+chrUn_KI270754v1	3
+chrUn_KI270438v1	2
+chrUn_KI270751v1	2
+chrUn_GL000213v1	1
+chrUn_GL000220v1	14
+chrUn_KI270742v1	10
+chrUn_GL000218v1	49
+chrX_KI270913v1_alt	5
+chrX	2382
+chrY	12
+
+[Position in protein]
+00-10%	11237
+10-20%	9139
+20-30%	8670
+30-40%	8413
+40-50%	7967
+50-60%	8306
+60-70%	8180
+70-80%	8554
+80-90%	8760
+90-100%	9567
