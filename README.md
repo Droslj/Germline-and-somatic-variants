@@ -55,7 +55,7 @@ Processing reads in this way ensures that any read moving forward into variant c
 <br>
 VarScan Somatic tool was run three times, comparing each treated sample to control sample. After that, only true somatic entries were extracted (Snpsift filter) and annotated (SnpEff annotate). 
 Variant effects were predicted (Predict variant effects with VEP) and only those that carry Impact level HIGH or MODERATE were selected for final list.
-
+<br>
 List of Somatic mutations for CDDP sample<br>
 ![List CDDP](Data/Somatic_mutations_CDDP.tabular)<br>
 <br>
@@ -81,26 +81,34 @@ Same list is used to create Venn diagram (Figure 2) with all three treatment bra
 
 # Discussion
 <br>
-The filtered list contains a collection of mutated genes damaged under the drug pressure. If a mutation completely broke an essential housekeeping gene that the cell needs to stay alive, that cell would have died before the sequencing run and its DNA would have vanished from the sample. So, in the final list we can expect to find genes whose mutation would have been beneficial to the survival of the tumor cell:<br>
+The filtered list contains a collection of mutated genes damaged under the drug pressure. If a mutation completely broke an essential housekeeping gene that the cell needs to stay alive, that cell would have died before the sequencing run and its DNA would have vanished from the sample. So, in the final list I focused on genes whose mutation would have been beneficial to the survival of the tumor cell:<br>
  - Category 1: Mutations that enable the tumor to bypass cell safety mechanism and survive<br>
  - Category 2: Mutations that enable the tumor to adapt survival and defense mechanisms<br> 
  - Category 3: Mutations that enable the tumor to modify extracellular mechanisms and response to immune system.<br>
 <br>
 
 **Category 1** (HIGH Impact Loss-of-Function)<br>
-Tumor benefits from non-functional protein to disable its own cellular safety triggers for cell senescence/apoptosis:<br>
- - BNIP1 (HIGH in Cisplatin): It normally acts as a pro-apoptotic sensor that forces heavily damaged cells to undergo suicide. By knocking it out, the tumor cell survives platinum cross-links because it can no longer trigger apoptosis<br>
- - PPP1R15A (HIGH in Olaparib): It normally forces a cell experiencing massive replication stress into strict growth arrest. Truncating it allows the tumor to bypass the checkpoint and keep dividing despite trapped PARP complexes.<br>
+Tumor benefits from non-functional protein to disable its own cellular safety triggers for cell senescence/apoptosis. These are possible options:<br>
+ - BNIP1 (HIGH in Cisplatin)<br>
+   - It normally acts as a pro-apoptotic sensor that forces heavily damaged cells to undergo suicide<br>
+   - By knocking it out, the tumor cell survives platinum cross-links because it can no longer trigger apoptosis<br>
+ - PPP1R15A (HIGH in Olaparib)<br>
+   - It normally forces a cell experiencing massive replication stress into strict growth arrest<br>
+   - Truncating it allows the tumor to bypass the checkpoint and keep dividing despite trapped PARP complexes<br>
 <br>
-Category 2 (MODERATE Impact - Missense)<br>
-Tumor uses single amino acid tweaks to over-activate pathways or optimize cellular machinery to handle continuous stress without dying<br>
- - IRS2 (MODERATE) in Olaparib: Instead of destroying the protein, this missense modification alters its shape to continuously pump pro-survival PI3K/Akt signaling throughout the cell<br>
- - NEK11 (MODERATE) in Niraparib: It subtly adjusts the G2/M DNA damage checkpoint clock. It doesn't break the cell cycle entirely; it tunes it just enough to let the cell patch its replication forks before dividing.<br>
+**Category 2** (MODERATE Impact - Missense)<br>
+Tumor uses single amino acid tweaks to over-activate pathways or optimize cellular machinery to handle continuous stress without dying:<br>
+ - IRS2 (MODERATE in Olaparib)<br>
+   - Instead of destroying the protein, this missense modification alters its shape to continuously pump pro-survival PI3K/Akt signaling throughout the cell<br>
+ - NEK11 (MODERATE) in Niraparib)<br>
+   - It subtly adjusts the G2/M DNA damage checkpoint clock. It doesn't break the cell cycle entirely; it tunes it just enough to let the cell patch its replication forks before dividing.<br>
 <br>
 Category 3 (MODERATE Impact)<br>
 Tumor modifies its exterior surface to protect its newly transformed epithelial components and hide from immune clearing <br>
- - MUC16 (MODERATE): Mutating the CA-125 matrix architecture helps tracking and anchoring the malignant cells during targeted selection <br>
- - HLA-DQA2 (MODERATE): Altering these major histocompatibility complexes serves to mute local microenvironmental immune surveillance while the tumor undergoes massive structural genomic shifts.<br>
+ - MUC16 (MODERATE in Olaparib, Niraparib)<br>
+   - Mutating the CA-125 matrix architecture helps tracking and anchoring the malignant cells during targeted selection <br>
+ - HLA-DQA2 (MODERATE in Olaparib, Niraparib)<br>
+   - Altering these major histocompatibility complexes serves to mute local microenvironmental immune surveillance while the tumor undergoes massive structural genomic shifts.<br>
 <br>
 
 **References**<br> 
