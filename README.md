@@ -35,7 +35,7 @@ The complete pipeline I used to process data from this study is shown on Figure 
 
 ![Processing pipeline](Images/Complete_flow.png)
 <br>
-# Quality Control & Adapter Trimming
+## Quality Control & Adapter Trimming
 <br>
 Inital preprocessing steps included QC and adapter trimming (fastp).<br>
 <br>
