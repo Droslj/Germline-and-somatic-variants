@@ -56,19 +56,19 @@ Processing reads in this way ensures that any read moving forward into variant c
 VarScan Somatic tool was run three times, comparing each treated sample to control sample. After that, only true somatic entries were extracted (Snpsift filter) and annotated (SnpEff annotate). 
 Variant effects were predicted (Predict variant effects with VEP) and only those that carry Impact level HIGH or MODERATE were selected for final list.
 <br>
-
+<br>
 List of Somatic mutations for CDDP sample<br>
 ![List CDDP](Data/Somatic_mutations_CDDP.tabular)<br>
 <br>
-
+<br>
 List of Somatic mutations for Olaparib sample<br>
 ![List OP](Data/Somatic_mutations_OP.tabular)<br>
 <br>
-
+<br>
 List of Somatic mutations for Niraparib sample<br>
 ![List NP](Data/Somatic_mutations_NP.tabular)<br>
 <br>
-
+<br>
 All the genes from all three treatments, filtered to contain a single entry for each gene and shown only with the modification impact are presented in Table 1.
 
 ![Table 1](Images/Gene_list_final.png)
