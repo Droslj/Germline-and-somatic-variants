@@ -100,6 +100,7 @@ Tumor benefits from non-functional protein to disable its own cellular safety tr
    - It normally forces a cell experiencing massive replication stress into strict growth arrest<br>
    - Truncating it allows the tumor to bypass the checkpoint and keep dividing despite trapped PARP complexes<br>
 <br>
+
 **Category 2** (MODERATE Impact - Missense)<br>
 Tumor uses single amino acid tweaks to over-activate pathways or optimize cellular machinery to handle continuous stress without dying:<br>
  - IRS2 (MODERATE in Olaparib)<br>
@@ -107,7 +108,8 @@ Tumor uses single amino acid tweaks to over-activate pathways or optimize cellul
  - NEK11 (MODERATE) in Niraparib)<br>
    - It subtly adjusts the G2/M DNA damage checkpoint clock. It doesn't break the cell cycle entirely; it tunes it just enough to let the cell patch its replication forks before dividing.<br>
 <br>
-Category 3 (MODERATE Impact)<br>
+
+**Category 3** (MODERATE Impact)<br>
 Tumor modifies its exterior surface to protect its newly transformed epithelial components and hide from immune clearing <br>
  - MUC16 (MODERATE in Olaparib, Niraparib)<br>
    - Mutating the CA-125 matrix architecture helps tracking and anchoring the malignant cells during targeted selection <br>
