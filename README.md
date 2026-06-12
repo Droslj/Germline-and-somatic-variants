@@ -27,6 +27,7 @@ This study has following samples:<br>
 <br>
 Since background meiotic LOH is present in all samples, the focus is on treatment-induced somatic alteration. This is done by comparing all treated samples to control sample, which subtracts the background meiotic LOH.
 <br>
+
 # WES Pipeline
 <br>
 The complete pipeline I used to process data from this study is shown on Figure 1.<br>
@@ -39,7 +40,7 @@ The complete pipeline I used to process data from this study is shown on Figure 
 Inital preprocessing steps included QC and adapter trimming (fastp).<br>
 <br>
 
-# Mouse Stroma Deconvolution
+## Mouse Stroma Deconvolution
 <br>
 Sequencing of a residual mouse PDX tumor means that the sample will contain varying amounts of mouse stromal cells infiltrating the human tumor mass. Before running variant or copy-number callers, raw reads need to be filtered in order to separate human from mouse reads. Separating mouse residual reads from graft (human) was done using Dual-Alignment strategy:<br>
  - Step 1: Align reads to Mouse Genome (mm39) (Minimap2)<br>
@@ -51,7 +52,7 @@ Sequencing of a residual mouse PDX tumor means that the sample will contain vary
 Processing reads in this way ensures that any read moving forward into variant calling pipeline is human tumor DNA.<br>
 <br>
 
-# Variant calling & Annotation
+## Variant calling & Annotation
 <br>
 VarScan Somatic tool was run three times, comparing each treated sample to control sample. After that, only true somatic entries were extracted (Snpsift filter) and annotated (SnpEff annotate). 
 Variant effects were predicted (Predict variant effects with VEP) and only those that carry Impact level HIGH or MODERATE were selected for final list.
