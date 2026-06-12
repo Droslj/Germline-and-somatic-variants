@@ -59,14 +59,17 @@ Variant effects were predicted (Predict variant effects with VEP) and only those
 <br>
 <br>
 List of Somatic mutations for CDDP sample<br>
+
 ![List CDDP](Data/Somatic_mutations_CDDP.tabular)<br>
 <br>
 <br>
 List of Somatic mutations for Olaparib sample<br>
+
 ![List OP](Data/Somatic_mutations_OP.tabular)<br>
 <br>
 <br>
 List of Somatic mutations for Niraparib sample<br>
+
 ![List NP](Data/Somatic_mutations_NP.tabular)<br>
 <br>
 <br>
