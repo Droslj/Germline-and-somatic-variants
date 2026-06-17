@@ -55,7 +55,9 @@ Processing reads in this way ensures that any read moving forward into variant c
 ## Variant calling & Annotation
 <br>
 VarScan Somatic tool was run three times, comparing each treated sample to control sample. After that, only true somatic entries were extracted (Snpsift filter) and annotated (SnpEff annotate). 
-Variant effects were predicted (Predict variant effects with VEP) and only those that carry Impact level HIGH or MODERATE were selected for final list.
+Variant effects were predicted (Predict variant effects with VEP) and only those that carry Impact level HIGH or MODERATE were selected.
+
+
 <br>
 <br>
 List of Somatic mutations for CDDP sample<br>
