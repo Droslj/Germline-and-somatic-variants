@@ -54,11 +54,22 @@ Processing reads in this way ensures that any read moving forward into variant c
 
 ## Variant calling & Annotation
 <br>
-VarScan Somatic tool was run three times, comparing each treated sample to control sample. After that, only true somatic entries were extracted (Snpsift filter) and annotated (SnpEff annotate). 
-Variant effects were predicted (Predict variant effects with VEP) and only those that carry Impact level HIGH or MODERATE were selected.
+VarScan Somatic tool was run three times, comparing each treated sample to control sample. After that, Variants were annotated (SnpEff anotate) and Variant effects were predicted (Predict variant effects with VEP and Ensemble VEP).  
 
-
+## Downstream filtering
 <br>
+DS Variant filtering selected only mutations with (Impact = {HIGH, Moderate}). After that, all Variants were tested against Ensemble score, which was created to account for pathogenicity (SIFT description = {deleterious, deleterious_low_confidence}) as well as Protein structure/evolution (PolyPhen description = {probably_damaging/possibly_damaging}). 
+This filtering provided high impact, highly pathogenic (SIFT contribution) mutations that take into account Protein structure and evolution (Polyphen contribution).  
+<br>
+
+## Population and biotype cleanup
+<br>
+After DS filtering step, another round of filtering consisting of Global alele frequency selection (AF <= 0.001), Biotype selection (BIOTYPE = protein_coding) and Clinical signinficance selection (CLIN_SIG = {pathogenic, likely_pathogenic, risk_factor}) was used to ensure getting High somatic confidence mutants. All the genes from all three treatments are presented in Table 1.
+
+
+![Table 1](Images/Gene_list_final.png)
+
+**Table 1: Gene list (final)
 <br>
 List of Somatic mutations for CDDP sample<br>
 
@@ -75,9 +86,7 @@ List of Somatic mutations for Niraparib sample<br>
 ![List NP](Data/Somatic_mutations_NP.tabular)<br>
 <br>
 <br>
-All the genes from all three treatments, filtered to contain a single entry for each gene and shown only with the modification impact are presented in Table 1.
 
-![Table 1](Images/Gene_list_final.png)
 
 Same list is used to create Venn diagram (Figure 2) with all three treatment branches and intersections between branches highlighted.<br>
 <br>
@@ -86,44 +95,7 @@ Same list is used to create Venn diagram (Figure 2) with all three treatment bra
 <br>
 
 **Venn diagram comments**
-Sector 1: The Exclusive PARPi Core (Olaparib & Niraparib)
-These 4 genes are mutated exclusively under PARP inhibitor pressure (OP and NP), but remain completely untouched by classic chemotherapy (CDDP).
- - MUC16 (MODERATE): Mutated in both OP and NP. This confirms tracking of the malignant epithelial component during targeted therapy.
- - HLA-DQA2 (MODERATE): Mutated in both OP and NP. Confirms targeted selective sweeps focused on immune evasion markers.
- - DUX4 (MODERATE): Mutated in both OP and NP. A major pioneer transcription factor involved in early development and facioscapulohumeral muscular dystrophy pathways, showing clear germ-cell line dynamics.
- - TBCD (HIGH vs MODERATE conflict): This is an exceptional finding. TBCD shows a HIGH impact mutation in Niraparib, but it also appears in your Cisplatin list as HIGH. This means TBCD actually shifts sectors!
 
-Sector 2: The Universal Stress Core (OP & NP & CDDP) — 2 Genes Total
-These are the 2 genes sitting dead-center in your Venn diagram, capturing general structural fragility.
-MUC4 (MODERATE): Universally mutated across all three arms.
-GOLGA6L1 (MODERATE): Universally mutated across all three arms.
-
-Sector 3: The Niraparib-Specific Wing (NP Only) — 8 Genes Total
-These are mutations unique to the Niraparib microenvironment. Notably, almost all of them are finely tuned missense modifications (MODERATE) rather than absolute structural blowouts (HIGH).
-NEK11 (MODERATE): Critical G2/M DNA damage checkpoint tuning.
-HLA-DRB5 (MODERATE): Additional antigen-presentation pathway adjustment.
-USP17L29, ZAN, MUC3A, SPDYE2, GOLGA8N, ARMCX4, ENSG00000286185, NBPF19 (MODERATE).
-
-Sector 4: The Olaparib-Specific Wing (OP Only) — 27 Genes Total
-Olaparib shows a distinct evolutionary strategy. It relies on a heavy combination of protein modifications (MODERATE) paired with abrupt functional knockouts (HIGH). You should explicitly label these HIGH genes in bold on your report:
-AGRN (HIGH): Agrin disruption, affecting extracellular matrix structuring.
-DIS3L2 (HIGH): Exoribonuclease disruption, driving mitotic abnormalities and cellular overgrowth syndromes.
-CPE (HIGH): Carboxypeptidase E knockout.
-LCOR (HIGH): Ligand-dependent corepressor knockout, heavily involved in altering chromatin structure and transcriptional silencing.
-FBN1 (HIGH): Fibrillin-1 structural frame truncation.
-VPS35 (HIGH): Vacuolar protein sorting 35 knockout, destroying endosomal retrograde transport to the Golgi network.
-PPP1R15A (HIGH): Major pathway hit. This is GADD34, a critical regulator of the cellular stress response, growth arrest, and DNA damage recovery cascades. Knocking this out shifts how the cell enters apoptosis vs. senescence.
-Key Metabolic Modulators: IRS2 (MODERATE), WWP2 (MODERATE), USP42 (MODERATE).
-
-Sector 5: The Cisplatin Genotoxic Wing (CDDP Only) — 29 Genes Total
-Cisplatin tracks standard chemotherapy defense mechanics, focusing heavily on base excision/DNA repair modification and cell-death controllers (HIGH):
-BNIP1 (HIGH): BCL2/Adenovirus E1B 19kDa Interacting Protein 1. This is a direct pro-apoptotic engine knockout, showing how cisplatin-treated cells explicitly delete death-signaling networks to survive.
-WASHC1 (HIGH vs MODERATE cluster): Shows multi-allelic pressure with both a severe structural truncation and a secondary missense mutation running concurrently.
-CCDC30, SPOUT1, PPP1R13L, C20orf96 (HIGH).Key DNA Repair Engine: 
-APEX2 (MODERATE).
-
-The Shared Core: MUC16, MUC4, HLA-DQA2, GOLGA6L1. (Label these as: Universal structural/environmental adaptations to PARP inhibition).
-The Olaparib Special: IRS2, WWP2, USP42, OVGP1. (Label these as: Targeted metabolic signaling and DNA-damage checkpoint modifications).
 
 # Discussion
 <br>
