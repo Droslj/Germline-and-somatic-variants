@@ -101,68 +101,68 @@ Venn diagram show a very well balanced entries for all three categories with ~fi
 
 Tumors exploit deficiencies in celular processes that enable them to survive pressure exerted by drugs or immune system. These mutations usually fall into one of the following categories:
 
-**Energy Efficiency & Metabolic Rewiring**
+**Energy Efficiency & Metabolic Rewiring**<br>
 Tumors operating under continuous drug duress alter nutrient influx and mitochondrial logistics to sustain the intense ATP demands of DNA repair and continuous division:
-SLC25A48 (mitochondrial transporter), SLC6A18 (amino acid transporter), LPIN3 (lipid metabolic regulator), GK3 (glycerol kinase 3 — specific to OP), AADACL2 (esterase activity).
-
-By modifying these specific baseline metabolic gates, the tumor optimizes fuel shunting to power active replication forks under therapeutic duress.
-
-**Evasion of Senescence & Apoptosis**
+SLC25A48 (mitochondrial transporter), SLC6A18 (amino acid transporter), LPIN3 (lipid metabolic regulator), GK3 (glycerol kinase 3 — specific to OP), AADACL2 (esterase activity).<br>
+<br>
+By modifying these specific baseline metabolic gates, the tumor optimizes fuel shunting to power active replication forks under therapeutic duress.<br>
+<br>
+**Evasion of Senescence & Apoptosis**<br>
 The critical survival mechanism where clones aggressively silence or bypass internal cellular apoptosis triggered by Cisplatin-induced DNA cross-links or PARP failure:
-RHBDD1 (suppresses apoptotic signals), PTPRN (tyrosine phosphatase receptor-type N), FLII (flightless I actin remodeling regulator, blocks caspase activation cascades).
-
-These mutations allow the tumor to systematically ignore internal damage checkpoints, converting what should be lethal drug stress into a survivable cellular state.
-
-**Loss of Adherence & Tissue Invasion (EMT)**
-To transform from a benign mature teratoma into an aggressive, infiltrating malignancy, cells must dismantle their rigid tissue anchorage:
-CLCA2 (epithelial tight-junction regulator), PRTG (protocogenin adhesion molecule), ITGBL1 (integrin subunit beta like 1), PCDH7 (protococadherin 7).
-
-Alterations in these structural proteins weaken epithelial anchoring, enabling the cell to undergo epithelial-to-mesenchymal transition (EMT) and migrate freely.
-
-**Structural Barriers (The Mucin Shield)**
-A heavily selected physical defense mechanism where tumors overproduce thick, highly glycosylated extracellular mucus matrices to physically impede small-molecule drug diffusion.
+RHBDD1 (suppresses apoptotic signals), PTPRN (tyrosine phosphatase receptor-type N), FLII (flightless I actin remodeling regulator, blocks caspase activation cascades).<br>
+<br>
+These mutations allow the tumor to systematically ignore internal damage checkpoints, converting what should be lethal drug stress into a survivable cellular state.<br>
+<br>
+**Loss of Adherence & Tissue Invasion (EMT)** <br>
+To transform from a benign mature teratoma into an aggressive, infiltrating malignancy, cells must dismantle their rigid tissue anchorage:<br>
+CLCA2 (epithelial tight-junction regulator), PRTG (protocogenin adhesion molecule), ITGBL1 (integrin subunit beta like 1), PCDH7 (protococadherin 7).<br>
+<br>
+Alterations in these structural proteins weaken epithelial anchoring, enabling the cell to undergo epithelial-to-mesenchymal transition (EMT) and migrate freely.<br>
+<br>
+**Structural Barriers (The Mucin Shield)** <br>
+A heavily selected physical defense mechanism where tumors overproduce thick, highly glycosylated extracellular mucus matrices to physically impede small-molecule drug diffusion.<br>
 MUC2, MUC3A, MUC4, MUC6.
-
-The preservation of this complete mucin ensemble across all three arms suggests the tumor constructed a dense, physical microenvironmental coat to shield internal vulnerable cell-surface receptors from drug uptake.
-
-**Active Drug Efflux & Transport/Ion Clearance**
-Shifting electrochemical cell potential and altering internal pH to proactively interfere with passive drug retention.
-KCNJ16 (inward-rectifier potassium channel), SLC9B1 (sodium-hydrogen exchanger — specific to CDDP).
-
-The presence of SLC9B1 exclusively in the Cisplatin arm points to a specialized chemical escape loop, as altering intracellular pH gradients is a classic tumor mechanism to neutralize heavy-metal accumulation.
-
-**Stress Tolerance & Autophagic Recycling**
-When PARP inhibitors shatter genomic structures, the tumor digests its damaged parts to generate raw recycling materials.
-
-ATG9B (core autophagosome structural lipid carrier), DCPS (scavenger decapping enzyme for damaged mRNA clearance).
-
-ATG9B acts as the primary waste-management engine, enabling the cell line to turn cytotoxic debris into usable metabolic building blocks rather than triggering cell death.
-
-**Epigenetic & Chromatin Reprogramming**
+<br>
+The preservation of this complete mucin ensemble across all three arms suggests the tumor constructed a dense, physical microenvironmental coat to shield internal vulnerable cell-surface receptors from drug uptake.<br>
+<br>
+**Active Drug Efflux & Transport/Ion Clearance**<br>
+Shifting electrochemical cell potential and altering internal pH to proactively interfere with passive drug retention.<br>
+KCNJ16 (inward-rectifier potassium channel), SLC9B1 (sodium-hydrogen exchanger — specific to CDDP).<br>
+<br><br>
+The presence of SLC9B1 exclusively in the Cisplatin arm points to a specialized chemical escape loop, as altering intracellular pH gradients is a classic tumor mechanism to neutralize heavy-metal accumulation.<br>
+<br>
+**Stress Tolerance & Autophagic Recycling**<br>
+When PARP inhibitors shatter genomic structures, the tumor digests its damaged parts to generate raw recycling materials.<br>
+<br>
+ATG9B (core autophagosome structural lipid carrier), DCPS (scavenger decapping enzyme for damaged mRNA clearance).<br>
+<br>
+ATG9B acts as the primary waste-management engine, enabling the cell line to turn cytotoxic debris into usable metabolic building blocks rather than triggering cell death.<br>
+<br>
+**Epigenetic & Chromatin Reprogramming**<br>
 Instead of mutating every gene independently, the tumor alters master chromatin remodelers to sweepingly change which survival programs are open or closed for transcription.
-KMT2C (essential lysine methyltransferase), TCERG1L (transcription elongation regulator), PAGR1 (PA1-dependent chromatin regulator).
-
-Recovering KMT2C completely solidifies this hallmark. It gives the tumor global control over chromatin accessibility, facilitating broad transcriptional resistance networks.
-
-**Immune Evasion & Signaling Blinding**
+KMT2C (essential lysine methyltransferase), TCERG1L (transcription elongation regulator), PAGR1 (PA1-dependent chromatin regulator).<br>
+<br>
+Recovering KMT2C completely solidifies this hallmark. It gives the tumor global control over chromatin accessibility, facilitating broad transcriptional resistance networks.<br>
+<br>
+**Immune Evasion & Signaling Blinding**<br>
 Suppressing or altering cell-surface receptor expressions to mask the tumor from host local surveillance and silence immune signaling cascades.
-TNFRSF17 (BCMA receptor), IFNA7 (Interferon Alpha 7), LGALS9B (Galectin 9B — specific to NP).
-
-Modulating tumor necrosis factors and interferon pathways blinds the local microenvironment, suppressing local inflammatory responses that would otherwise target the malignant graft.
-
-**Chromosomal Instability & Mitotic Shuffling**
+TNFRSF17 (BCMA receptor), IFNA7 (Interferon Alpha 7), LGALS9B (Galectin 9B — specific to NP).<br>
+<br>
+Modulating tumor necrosis factors and interferon pathways blinds the local microenvironment, suppressing local inflammatory responses that would otherwise target the malignant graft.<br>
+<br>
+**Chromosomal Instability & Mitotic Shuffling** <br>
 A structural strategy where the clone introduces subtle, manageable defects into its cell-division machinery to rapidly shuffle its chromosome variations and accelerate drug-resistance evolution.
-CEP350 (centrosomal microtubule anchor), CFAP20DC, CCDC32, CCT8L2, UBE2W (ubiquitin-conjugating enzyme vital for DNA damage bypass).
-
+CEP350 (centrosomal microtubule anchor), CFAP20DC, CCDC32, CCT8L2, UBE2W (ubiquitin-conjugating enzyme vital for DNA damage bypass).<br>
+<br>
 The recovery of CEP350 across all lineages proves that a permanent structural shakeup in mitotic spindle mechanics acts as a foundational engine for genomic variation in this tumor model.
-
-**Phenotypic Plasticity & Stemness (Progenitor Maintenance)**
+<br>
+**Phenotypic Plasticity & Stemness (Progenitor Maintenance)** <br>
 Because a teratoma originates from germ cells, blocking differentiation pathways keeps the tumor cells locked in an immortal, highly plastic, embryonic-like progenitor state.
-LGR6 (definitive stem-cell marker), AGAP6, AKAP13.
-
+LGR6 (definitive stem-cell marker), AGAP6, AKAP13.<br>
+<br>
 Rescuing LGR6 is highly significant. It proves the tumor maintains an undifferentiated, highly flexible stem-like state, ensuring infinite self-renewal capability regardless of the treatment wing.
 <br>
-
+<br>
 
 **References**<br> 
 [1] Project PRJNA1223657 (NCBI), High LOH MTMCT, To evaluate genomic alteration by PARP inhibitors for high LOH malignant transformation of mature cystic teratoma
