@@ -95,41 +95,74 @@ Same list is used to create Venn diagram (Figure 2) with all three treatment bra
 <br>
 
 **Venn diagram comments**
+Venn diagram show a very well balanced entries for all three categories with ~fifty entries (53 (CDDP) vs 52 (OP) vs 51 (NP)). The fact that the numbers are almost identical proves that lines shared an incredibly tight, synchronized genomic landscape, with just 1 or 2 specific variations distinguishing how they branched under the distinct selection pressures of Cisplatin versus the PARP inhibitors. This also confirms that these specific high-impact mutations are deeply entrenched, foundational drivers of the tumor's malignant phenotype.
 
+## Categorizing entries
 
-# Discussion
-<br>
-The filtered list contains a collection of mutated genes damaged under the drug pressure. If a mutation completely broke an essential housekeeping gene that the cell needs to stay alive, that cell would have died before the sequencing run and its DNA would have vanished from the sample. So, in the final list I focused on genes whose mutation would have been beneficial to the survival of the tumor cell:<br>
- - Category 1: Mutations that enable the tumor to bypass cell safety mechanism and survive<br>
- - Category 2: Mutations that enable the tumor to adapt survival and defense mechanisms<br> 
- - Category 3: Mutations that enable the tumor to modify extracellular mechanisms and response to immune system.<br>
+Tumors exploit deficiencies in celular processes that enable them to survive pressure exerted by drugs or immune system. These mutations usually fall into one of the following categories:
+
+**Energy Efficiency & Metabolic Rewiring**
+Tumors operating under continuous drug duress alter nutrient influx and mitochondrial logistics to sustain the intense ATP demands of DNA repair and continuous division:
+SLC25A48 (mitochondrial transporter), SLC6A18 (amino acid transporter), LPIN3 (lipid metabolic regulator), GK3 (glycerol kinase 3 — specific to OP), AADACL2 (esterase activity).
+
+By modifying these specific baseline metabolic gates, the tumor optimizes fuel shunting to power active replication forks under therapeutic duress.
+
+**Evasion of Senescence & Apoptosis**
+The critical survival mechanism where clones aggressively silence or bypass internal cellular apoptosis triggered by Cisplatin-induced DNA cross-links or PARP failure:
+RHBDD1 (suppresses apoptotic signals), PTPRN (tyrosine phosphatase receptor-type N), FLII (flightless I actin remodeling regulator, blocks caspase activation cascades).
+
+These mutations allow the tumor to systematically ignore internal damage checkpoints, converting what should be lethal drug stress into a survivable cellular state.
+
+**Loss of Adherence & Tissue Invasion (EMT)**
+To transform from a benign mature teratoma into an aggressive, infiltrating malignancy, cells must dismantle their rigid tissue anchorage:
+CLCA2 (epithelial tight-junction regulator), PRTG (protocogenin adhesion molecule), ITGBL1 (integrin subunit beta like 1), PCDH7 (protococadherin 7).
+
+Alterations in these structural proteins weaken epithelial anchoring, enabling the cell to undergo epithelial-to-mesenchymal transition (EMT) and migrate freely.
+
+**Structural Barriers (The Mucin Shield)**
+A heavily selected physical defense mechanism where tumors overproduce thick, highly glycosylated extracellular mucus matrices to physically impede small-molecule drug diffusion.
+MUC2, MUC3A, MUC4, MUC6.
+
+The preservation of this complete mucin ensemble across all three arms suggests the tumor constructed a dense, physical microenvironmental coat to shield internal vulnerable cell-surface receptors from drug uptake.
+
+**Active Drug Efflux & Transport/Ion Clearance**
+Shifting electrochemical cell potential and altering internal pH to proactively interfere with passive drug retention.
+KCNJ16 (inward-rectifier potassium channel), SLC9B1 (sodium-hydrogen exchanger — specific to CDDP).
+
+The presence of SLC9B1 exclusively in the Cisplatin arm points to a specialized chemical escape loop, as altering intracellular pH gradients is a classic tumor mechanism to neutralize heavy-metal accumulation.
+
+**Stress Tolerance & Autophagic Recycling**
+When PARP inhibitors shatter genomic structures, the tumor digests its damaged parts to generate raw recycling materials.
+
+ATG9B (core autophagosome structural lipid carrier), DCPS (scavenger decapping enzyme for damaged mRNA clearance).
+
+ATG9B acts as the primary waste-management engine, enabling the cell line to turn cytotoxic debris into usable metabolic building blocks rather than triggering cell death.
+
+**Epigenetic & Chromatin Reprogramming**
+Instead of mutating every gene independently, the tumor alters master chromatin remodelers to sweepingly change which survival programs are open or closed for transcription.
+KMT2C (essential lysine methyltransferase), TCERG1L (transcription elongation regulator), PAGR1 (PA1-dependent chromatin regulator).
+
+Recovering KMT2C completely solidifies this hallmark. It gives the tumor global control over chromatin accessibility, facilitating broad transcriptional resistance networks.
+
+**Immune Evasion & Signaling Blinding**
+Suppressing or altering cell-surface receptor expressions to mask the tumor from host local surveillance and silence immune signaling cascades.
+TNFRSF17 (BCMA receptor), IFNA7 (Interferon Alpha 7), LGALS9B (Galectin 9B — specific to NP).
+
+Modulating tumor necrosis factors and interferon pathways blinds the local microenvironment, suppressing local inflammatory responses that would otherwise target the malignant graft.
+
+**Chromosomal Instability & Mitotic Shuffling**
+A structural strategy where the clone introduces subtle, manageable defects into its cell-division machinery to rapidly shuffle its chromosome variations and accelerate drug-resistance evolution.
+CEP350 (centrosomal microtubule anchor), CFAP20DC, CCDC32, CCT8L2, UBE2W (ubiquitin-conjugating enzyme vital for DNA damage bypass).
+
+The recovery of CEP350 across all lineages proves that a permanent structural shakeup in mitotic spindle mechanics acts as a foundational engine for genomic variation in this tumor model.
+
+**Phenotypic Plasticity & Stemness (Progenitor Maintenance)**
+Because a teratoma originates from germ cells, blocking differentiation pathways keeps the tumor cells locked in an immortal, highly plastic, embryonic-like progenitor state.
+LGR6 (definitive stem-cell marker), AGAP6, AKAP13.
+
+Rescuing LGR6 is highly significant. It proves the tumor maintains an undifferentiated, highly flexible stem-like state, ensuring infinite self-renewal capability regardless of the treatment wing.
 <br>
 
-**Category 1** (HIGH Impact Loss-of-Function)<br>
-Tumor benefits from non-functional protein to disable its own cellular safety triggers for cell senescence/apoptosis. These are possible options:<br>
- - BNIP1 (HIGH in Cisplatin)<br>
-   - It normally acts as a pro-apoptotic sensor that forces heavily damaged cells to undergo suicide<br>
-   - By knocking it out, the tumor cell survives platinum cross-links because it can no longer trigger apoptosis<br>
- - PPP1R15A (HIGH in Olaparib)<br>
-   - It normally forces a cell experiencing massive replication stress into strict growth arrest<br>
-   - Truncating it allows the tumor to bypass the checkpoint and keep dividing despite trapped PARP complexes<br>
-<br>
-
-**Category 2** (MODERATE Impact - Missense)<br>
-Tumor uses single amino acid tweaks to over-activate pathways or optimize cellular machinery to handle continuous stress without dying:<br>
- - IRS2 (MODERATE in Olaparib)<br>
-   - Instead of destroying the protein, this missense modification alters its shape to continuously pump pro-survival PI3K/Akt signaling throughout the cell<br>
- - NEK11 (MODERATE) in Niraparib)<br>
-   - It subtly adjusts the G2/M DNA damage checkpoint clock. It doesn't break the cell cycle entirely; it tunes it just enough to let the cell patch its replication forks before dividing.<br>
-<br>
-
-**Category 3** (MODERATE Impact)<br>
-Tumor modifies its exterior surface to protect its newly transformed epithelial components and hide from immune clearing <br>
- - MUC16 (MODERATE in Olaparib, Niraparib)<br>
-   - Mutating the CA-125 matrix architecture helps tracking and anchoring the malignant cells during targeted selection <br>
- - HLA-DQA2 (MODERATE in Olaparib, Niraparib)<br>
-   - Altering these major histocompatibility complexes serves to mute local microenvironmental immune surveillance while the tumor undergoes massive structural genomic shifts.<br>
-<br>
 
 **References**<br> 
 [1] Project PRJNA1223657 (NCBI), High LOH MTMCT, To evaluate genomic alteration by PARP inhibitors for high LOH malignant transformation of mature cystic teratoma
