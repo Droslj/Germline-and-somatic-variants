@@ -98,8 +98,8 @@ Venn diagram show a very well balanced entries for all three categories with ~fi
 <br>
 ## Categorization of entries
 <br>
-Filtering for gene variants with HIGH/MODERATE impact that are deleterious and damaging gives a list of protein coding genes that are detrimental to the normal function of those specific proteins and thus possibly beneficial for the tumor survival. These mutations found fall into one of the following categories:
-
+Filtering for gene variants with HIGH/MODERATE impact that are deleterious and damaging gives a list of protein coding genes that are detrimental to the normal function of those specific proteins and thus possibly beneficial for the tumor survival. These mutations found fall into one of the following categories:<br>
+<br>
 **Energy Efficiency & Metabolic Rewiring**<br>
 Tumors operating under continuous drug duress alter nutrient influx and mitochondrial logistics to sustain the intense ATP demands of DNA repair and continuous division. Following genes fall into this category:<br>
 SLC25A48 (mitochondrial transporter), SLC6A18 (amino acid transporter), LPIN3 (lipid metabolic regulator), GK3 (glycerol kinase 3 — specific to OP), AADACL2 (esterase activity).<br>
