@@ -54,8 +54,10 @@ VarScan Somatic tool was run three times, comparing each treated sample to contr
 
 ## Downstream filtering
 <br>
-DS Variant filtering selected only mutations with (Impact = {HIGH, Moderate}). After that, all Variants were tested against Ensemble score, which was created to account for pathogenicity (SIFT description = {deleterious, deleterious_low_confidence}) as well as Protein structure/evolution (PolyPhen description = {probably_damaging/possibly_damaging}). 
-This filtering provided high impact, highly pathogenic (SIFT contribution) mutations that take into account Protein structure and evolution (Polyphen contribution).  
+DS Variant filtering selected only mutations with (Impact = {HIGH, Moderate}).<br>
+<br>
+After that, all Variants were tested against Ensemble score, which was created to account for pathogenicity (SIFT description = {deleterious, deleterious_low_confidence}) as well as Protein structure/evolution (PolyPhen description = {probably_damaging/possibly_damaging}). 
+This filtering provided high impact, highly pathogenic (SIFT contribution) mutations that take into account both Protein structure as well as evolution (Polyphen contribution).  
 <br>
 
 ## Population and biotype cleanup
@@ -92,23 +94,21 @@ Same list is used to create Venn diagram (Figure 2) with all three treatment bra
 
 **Venn diagram comments**<br>
 <br>
-Venn diagram show a very well balanced entries for all three categories with ~fifty entries (53 (CDDP) vs 52 (OP) vs 51 (NP)). The fact that the numbers are almost identical proves that lines shared an incredibly tight, synchronized genomic landscape, with just 1 or 2 specific variations distinguishing how they branched under the distinct selection pressures of Cisplatin versus the PARP inhibitors. This also confirms that these specific high-impact mutations are deeply entrenched, foundational drivers of the tumor's malignant phenotype.<br>
+Venn diagram show a very well balanced entries for all three categories with ~fifty entries (53 (CDDP) vs 52 (OP) vs 51 (NP)) for each branch. The fact that the numbers are almost identical proves that lines shared similar genomic  backgrounds with just 1 or 2 specific variations to guide branching under distinct selection pressures of Cisplatin versus the PARP inhibitors. This also confirms that these specific, high-impact mutations are drivers of the tumor's malignant phenotype.<br>
 <br>
 ## Categorization of entries
 <br>
-Filtering for gene variants with HIGH/MODERATE impact that are deleterious and damaging gives a list of genes that code for proteins that are detrimental to the normal function of those specific proteins, thus enabling the tumor survival. These mutations found fall into one of the following categories:
+Filtering for gene variants with HIGH/MODERATE impact that are deleterious and damaging gives a list of protein coding genes that are detrimental to the normal function of those specific proteins and thus possibly beneficial for the tumor survival. These mutations found fall into one of the following categories:
 
 **Energy Efficiency & Metabolic Rewiring**<br>
 Tumors operating under continuous drug duress alter nutrient influx and mitochondrial logistics to sustain the intense ATP demands of DNA repair and continuous division. Following genes fall into this category:<br>
 SLC25A48 (mitochondrial transporter), SLC6A18 (amino acid transporter), LPIN3 (lipid metabolic regulator), GK3 (glycerol kinase 3 — specific to OP), AADACL2 (esterase activity).<br>
 <br>
-By modifying these specific baseline metabolic gates, the tumor optimizes fuel shunting to power active replication forks under therapeutic duress.<br>
-<br>
 **Evasion of Senescence & Apoptosis**<br>
 The critical survival mechanism where clones aggressively silence or bypass internal cellular apoptosis triggered by Cisplatin-induced DNA cross-links or PARP failure. Following genes fall into this category:<br>
 RHBDD1 (suppresses apoptotic signals), PTPRN (tyrosine phosphatase receptor-type N), FLII (flightless I actin remodeling regulator, blocks caspase activation cascades).<br>
 <br>
-These mutations allow the tumor to systematically ignore internal damage checkpoints, converting what should be lethal drug stress into a survivable cellular state.<br>
+These mutations could allow the tumor to systematically ignore internal damage checkpoints, converting what should be lethal drug stress into a survivable cellular state.<br>
 <br>
 **Loss of Adherence & Tissue Invasion (EMT)** <br>
 To transform from a benign mature teratoma into an aggressive, infiltrating malignancy, cells must dismantle their rigid tissue anchorage. Following genes fall into this category:<br>
@@ -137,8 +137,6 @@ ATG9B acts as the primary waste-management engine, enabling the cell line to tur
 **Epigenetic & Chromatin Reprogramming**<br>
 Instead of mutating every gene independently, the tumor alters master chromatin remodelers to sweepingly change which survival programs are open or closed for transcription. Following genes fall into this category:<br>
 KMT2C (essential lysine methyltransferase), TCERG1L (transcription elongation regulator), PAGR1 (PA1-dependent chromatin regulator).<br>
-<br>
-KMT2C gives the tumor global control over chromatin accessibility, facilitating broad transcriptional resistance networks.<br>
 <br>
 **Immune Evasion & Signaling Blinding**<br>
 Suppressing or altering cell-surface receptor expressions to mask the tumor from host local surveillance and silence immune signaling cascades. Following genes fall into this category:<br>
