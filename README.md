@@ -67,7 +67,7 @@ After DS filtering step, another round of filtering consisting of Global alele f
 
 ![Table 1](Images/Gene_list_final.png)
 
-**Table 1: Gene list (final)
+**Table 1: Gene list (final)**
 <br>
 List of Somatic mutations for CDDP sample<br>
 
@@ -84,7 +84,6 @@ List of Somatic mutations for Niraparib sample<br>
 ![List NP](Data/Somatic_mutations_NP.tabular)<br>
 <br>
 <br>
-
 
 Same list is used to create Venn diagram (Figure 2) with all three treatment branches and intersections between branches highlighted.<br>
 <br>
