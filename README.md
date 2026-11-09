@@ -105,7 +105,7 @@ Tumors operating under continuous drug duress alter nutrient influx and mitochon
 Following genes fall into this category:<br>
 SLC25A48 (mitochondrial transporter), SLC6A18 (amino acid transporter), LPIN3 (lipid metabolic regulator), GK3 (glycerol kinase 3 — specific to OP arm), AADACL2 (esterase activity).<br>
 
-Possible explanation<br>
+-> Possible explanation<br>
 Altering these allows the tumor to optimize how it uptakes and shunts metabolic fuels (like glutamine or specific lipids via the lipin family member LPIN3) to sustain the heavy ATP demands of constant cell division under therapeutic duress.<br>
 
 **Evasion of Senescence & Apoptosis**<br>
@@ -114,7 +114,7 @@ These are critical survival mechanism which clones use to aggressively silence o
 Following genes fall into this category:<br>
 RHBDD1 (suppresses apoptotic signals), PTPRN (tyrosine phosphatase receptor-type N), FLII (flightless I actin remodeling regulator, blocks caspase activation cascades).<br>
 
-Possible explanation<br>
+-> Possible explanation<br>
 These mutations could allow the tumor to systematically ignore internal damage checkpoints, converting what should be lethal drug stress into a survivable cellular state.<br>
 <br>
 
@@ -124,7 +124,7 @@ To transform from a benign mature teratoma into an aggressive, infiltrating mali
 Following genes fall into this category:<br>
 CLCA2 (epithelial tight-junction regulator), PRTG (protocogenin adhesion molecule), ITGBL1 (integrin subunit beta like 1), PCDH7 (protococadherin 7).<br>
 
-Possible explanation<br>
+-> Possible explanation<br>
 Alterations in these structural proteins weaken epithelial anchoring, enabling the cell to undergo epithelial-to-mesenchymal transition (EMT) and migrate freely.<br>
 <br>
 
@@ -134,7 +134,7 @@ A heavily selected physical defense mechanism where tumors overproduce thick, hi
 Following genes fall into this category:<br>
 MUC2, MUC3A, MUC4, MUC6.
 
-Possible explanation<br>
+-> Possible explanation<br>
 Finding this complete mucin ensemble across all three arms may suggest that the tumor constructed a dense, physical microenvironmental coat to shield internal vulnerable cell-surface receptors from drug uptake.<br>
 <br>
 
@@ -144,7 +144,7 @@ Shifting electrochemical cell potential and altering internal pH proactively int
 Following genes fall into this category:<br>
 KCNJ16 (inward-rectifier potassium channel), SLC9B1 (sodium-hydrogen exchanger — specific to CDDP).<br>
 
-Possible explanation<br>
+-> Possible explanation<br>
 The presence of SLC9B1 exclusively in the Cisplatin arm points to a specialized chemical escape loop, as altering intracellular pH gradients is a classic tumor mechanism to neutralize heavy-metal accumulation.<br>
 <br>
 
@@ -153,6 +153,8 @@ When PARP inhibitors shatter genomic structures, the tumor digests its damaged p
 
 Following genes fall into this category:<br>
 ATG9B (core autophagosome structural lipid carrier), DCPS (scavenger decapping enzyme for damaged mRNA clearance).<br>
+
+-> Possible explanation<br>
 ATG9B enables the cell line to turn cytotoxic debris into usable metabolic building blocks rather than triggering cell death.<br>
 <br>
 
@@ -163,13 +165,16 @@ Following genes fall into this category:<br>
 KMT2C (essential lysine methyltransferase), TCERG1L (transcription elongation regulator), PAGR1 (PA1-dependent chromatin regulator).<br>
 <br>
 
+-> Possible explanation<br>
+Chromatin remodeling may impact transcription in order to increase survivability.
+
 **Immune Evasion & Signaling Blinding**
 Suppressing or altering cell-surface receptor expressions to mask the tumor from host local surveillance and silence immune signaling cascades.<br>
 
 Following genes fall into this category:<br>
 TNFRSF17 (BCMA receptor), IFNA7 (Interferon Alpha 7), LGALS9B (Galectin 9B — specific to NP).<br>
 
-Possible explanation<br>
+-> Possible explanation<br>
 Modulating tumor necrosis factors and interferon pathways blinds the local microenvironment, suppressing local inflammatory responses that would otherwise target the malignant graft.<br>
 <br>
 
@@ -179,7 +184,7 @@ Structural strategy which allows the clone to introduce subtle, manageable defec
 Following genes fall into this category:<br>
 CEP350 (centrosomal microtubule anchor), CFAP20DC, CCDC32, CCT8L2, UBE2W (ubiquitin-conjugating enzyme vital for DNA damage bypass).<br>
 
-Possible explanation<br>
+-> Possible explanation<br>
 Finding CEP350 presence across all lineages proves that a permanent structural shakeup in mitotic spindle mechanics acts as a foundational engine for genomic variation in this tumor model.
 <br>
 
@@ -189,7 +194,7 @@ Because a teratoma originates from germ cells, blocking differentiation pathways
 Following genes fall into this category:<br>
 LGR6 (definitive stem-cell marker), AGAP6, AKAP13.<br>
 
-Possible explanation<br>
+-> Possible explanation<br>
 LGR6 is highly significant. It proves the tumor maintains an undifferentiated, highly flexible stem-like state, ensuring infinite self-renewal capability regardless of the treatment wing.
 <br>
 <br>
